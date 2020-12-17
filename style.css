@@ -6,12 +6,20 @@ body{
 
 }
 
+.container{
+    height: 100%;
+    width: 100%;
+ 
+    position: absolute;
+}
+
+
 .bg-img{
     background-image: url("/images/Groot.jpg");
 
 
-    height: 100%;
-    background-position:top;
+    height:max-content;
+    background-position:center;
     background-repeat:no-repeat;
     background-size: cover;
 }
@@ -39,7 +47,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     font-family: 'Sniglet', cursive;
-    width: 50%;
+    width: 75%;
     display: block;
     
     padding:  1rem;
@@ -70,7 +78,7 @@ button{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    max-width: 75%;
     display: block;
     /* margin: 1rem; */
     padding: 1rem;
@@ -90,10 +98,9 @@ button{
     background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%); 
     
     color: rgba(119, 68, 9, 0.877);
-    position: sticky;
-    left: 0;
-    bottom: 0;
+    height: auto;
     width: 100%;
+    text-align: center;
     font-size: 1.5rem;
 
     
