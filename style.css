@@ -84,9 +84,9 @@ button{
     background:rgb(38, 233, 184);
     color: rgba(119, 68, 9, 0.877);
     position: sticky;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 
     
 }
