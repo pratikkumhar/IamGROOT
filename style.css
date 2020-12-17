@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Sniglet&display=swap');
+body{
+    margin: 0px;
+    height: 100%;
+    font-family: 'Sniglet', cursive;    
+
+}
+
+.bg-img{
+    background-image: url("/images/Groot.jpg");
+
+
+    height: 100%;
+    background-position:top;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.head{
+    background: rgb(34,193,195);
+    background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%); 
+    text-align: center;
+    font-size: 2rem;
+
+
+}
+
+.txtout{
+    padding:1rem;
+    
+    
+}
+
+::placeholder{
+    color:rgb(27, 236, 107);
+    opacity: 0.7;
+}
+.txt-input{
+    font-family: 'Sniglet', cursive;
+    width: 80%;
+    display: block;
+    
+    padding:  1rem;
+    min-height: 20vh;
+    resize: vertical;
+    background: transparent;
+    color: rgb(0, 238, 255);
+
+    font-size: 1.5rem;
+    
+    border-color: rgb(157, 231, 20);
+    border-style: ridge;
+    border-width: 2px;
+    
+
+}
+
+
+button{
+    color: rgb(147, 235, 32);
+    font-size: 2rem;
+    opacity: 0.87;
+    background-color: #57001d;
+    background-image: url("https://www.transparenttextures.com/patterns/diamond-upholstery.png");
+    margin: 1rem;
+}
+
+.output{
+    width: 80%;
+    display: block;
+    /* margin: 1rem; */
+    padding: 1rem;
+    min-height: 20vh;
+    resize: vertical;
+    background: transparent;
+    color: rgb(0, 238, 255);
+   
+    border-color:rgb(157, 231, 20);
+    border-style: ridge;
+    border-width: 2px;
+}
+
+.footer{
+    background:rgb(38, 233, 184);
+    color: rgba(119, 68, 9, 0.877);
+    position: sticky;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+    
+}
+
+.footer .footer-head{
+    padding: 1.5rem;
+}
