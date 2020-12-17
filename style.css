@@ -27,27 +27,27 @@ body{
 
 .txtout{
     padding:1rem;
-    
-    
+    text-align: center;   
 }
 
 ::placeholder{
-    color:rgb(27, 236, 107);
+    color:rgb(34, 41, 36);
     opacity: 0.7;
 }
 .txt-input{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     font-family: 'Sniglet', cursive;
-    width: 80%;
+    width: 50%;
     display: block;
     
     padding:  1rem;
     min-height: 20vh;
     resize: vertical;
-    background: transparent;
-    color: rgb(0, 238, 255);
-
+    color: rgba(119, 68, 9, 0.877);
+    background-color: rgba(1, 224, 205, 0.562);
     font-size: 1.5rem;
-    
     border-color: rgb(157, 231, 20);
     border-style: ridge;
     border-width: 2px;
@@ -60,37 +60,45 @@ button{
     color: rgb(147, 235, 32);
     font-size: 2rem;
     opacity: 0.87;
-    background-color: #57001d;
+    background-color: #57001de0;
     background-image: url("https://www.transparenttextures.com/patterns/diamond-upholstery.png");
     margin: 1rem;
+    cursor: pointer;
 }
 
 .output{
-    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     display: block;
     /* margin: 1rem; */
     padding: 1rem;
     min-height: 20vh;
     resize: vertical;
     background: transparent;
-    color: rgb(0, 238, 255);
-   
+    color: rgba(119, 68, 9, 0.877);
+    background-color: rgba(1, 224, 205, 0.562);
+    font-size: 1.5rem;
     border-color:rgb(157, 231, 20);
     border-style: ridge;
     border-width: 2px;
 }
 
 .footer{
-    background:rgb(38, 233, 184);
+    background: rgb(34,193,195);
+    background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%); 
+    
     color: rgba(119, 68, 9, 0.877);
     position: sticky;
     left: 0;
     bottom: 0;
     width: 100%;
+    font-size: 1.5rem;
 
     
 }
 
 .footer .footer-head{
-    padding: 1.5rem;
+    padding: 2rem;
 }
